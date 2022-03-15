@@ -260,6 +260,9 @@ sys.vendor.shutdown.waittime=500
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# Telephony
+telephony.active_modems.max_count=2
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
