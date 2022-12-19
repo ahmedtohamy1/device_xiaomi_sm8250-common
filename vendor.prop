@@ -152,6 +152,9 @@ ro.soc.model=SM8250
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Display
 debug.sf.treat_170m_as_sRGB=1
 persist.sys.sf.color_mode=9
