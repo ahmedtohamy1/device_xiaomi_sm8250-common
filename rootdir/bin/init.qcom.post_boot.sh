@@ -3404,7 +3404,7 @@ case "$target" in
             echo N > /sys/module/lpm_levels/L3/cpu7/ret/idle_enabled
 
             # cpuset parameters
-            echo 0-5 > /dev/cpuset/background/cpus
+            echo 0-1 > /dev/cpuset/background/cpus
             echo 0-5 > /dev/cpuset/system-background/cpus
 
             # Turn off scheduler boost at the end
